@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MovieHub - My Movie Blog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">
+            🎬 MovieHub
+        </div>
+
+        <div class="nav-links">
+            <button onclick="showHome()">Home</button>
+            <button onclick="showReview()">My Review</button>
+            <button onclick="toggleTheme()" id="themeButton">
+                ☀️ Light
+            </button>
+        </div>
+
+    </nav>
+
+
+    <!-- HOME PAGE -->
+    <main id="homePage">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    WELCOME TO MY BLOG
+                </p>
+
+                <h1>
+                    Movies that make
+                    <span>you feel.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Welcome to MovieHub, my personal movie blog where
+                    I share my thoughts, opinions, and favorite moments
+                    from movies I enjoy.
+                </p>
+
+                <button
+                    class="read-button"
+                    onclick="showReview()"
+                >
+                    Read My Review →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED MOVIE -->
+        <section class="featured">
+
+            <p class="section-label">
+                FEATURED POST
+            </p>
+
+            <div class="movie-card">
+
+                <div class="movie-poster">
+
+                    <div class="poster">
+
+                        <div class="spider">
+                            🕷️
+                        </div>
+
+                        <h2>
+                            SPIDER-MAN
+                        </h2>
+
+                        <h3>
+                            NO WAY HOME
+                        </h3>
+
+                        <p>
+                            2021
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="movie-info">
+
+                    <p class="category">
+                        MOVIE REVIEW
+                    </p>
+
+                    <h2>
+                        Spider-Man: No Way Home
+                    </h2>
+
+                    <p class="date">
+                        August 13, 2026
+                    </p>
+
+                    <p>
+                        A personal look at one of the most memorable
+                        Spider-Man movies and why it stands out to me.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        onclick="showReview()"
+                    >
+                        Read Article →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    
+    <main id="reviewPage" class="review-page">
+
+        <button
+            class="back-button"
+            onclick="showHome()"
+        >
+            ← Back to Home
+        </button>
+
+
+        <article class="article">
+
+            <p class="category">
+                MOVIE REVIEW
+            </p>
+
+            <h1>
+                Spider-Man: No Way Home
+            </h1>
+
+            <p class="article-date">
+                August 13, 2026 · MovieHub
+            </p>
+
+
+            <div class="big-poster">
+
+                <div class="poster large">
+
+                    <div class="spider">
+                        🕷️
+                    </div>
+
+                    <h2>
+                        SPIDER-MAN
+                    </h2>
+
+                    <h3>
+                        NO WAY HOME
+                    </h3>
+
+                    <p>
+                        2021
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="article-content">
+
+                <h2>
+                    My Thoughts on the Movie
+                </h2>
+
+                
+
+                <p>
+I chose Spider Man: No Way Home because I really like Spider-Man and I've always enjoyed watching his movies. I like this movie because it has a good mix of action, funny moments, and emotional scenes. One thing that makes it special to me is seeing the different Spider Man characters together. It made me excited while watching, and some parts of the movie really made me emotional.
+</p>
+
+    <p>
+My favorite character is Spider Man, Peter Parker. I like him because he is funny, kind, and always tries to help people even when he is having problems of his own. I also like the way he keeps trying to do the right thing, even when it is really hard for him. I feel like that makes him a good and relatable character.
+    </p>
+
+    <p>
+        My favorite scene is when the three Spider Men meet for the first time. I enjoyed this part because it was funny and exciting seeing them together, especially since I grew up watching the other Spider Man movies. When I watched this scene, I felt really happy and excited because I never thought they would actually put all three Spider Men in one movie. It was honestly one of the coolest parts of the movie for me.
+    </p>
+
+    <p>
+        I think the story is really good and fun to watch. There are a lot of exciting and funny parts, but there are also scenes that made me feel sad. For me, the most memorable part was when the three Spider Men worked together because it was really cool seeing them in the same movie. That part made me enjoy the movie even more.
+    </p>
+
+
+            </div>
+
+        </article>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 MovieHub · My Personal Movie Blog
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
